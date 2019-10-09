@@ -189,6 +189,7 @@ footer .btn:hover {
         border-color: transparent var(--secondary-color)transparent transparent;
     }
 
+    /* Footer */
     footer {
         flex-direction: column;
     }
