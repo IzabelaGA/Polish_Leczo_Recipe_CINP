@@ -194,3 +194,9 @@ footer .btn:hover {
         flex-direction: column;
     }
 }
+
+img {
+    width: 4.5rem;
+    position: absolute;
+    display: block;
+}
