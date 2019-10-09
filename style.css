@@ -156,7 +156,11 @@ footer .btn {
 footer .btn:hover {
     color: var(--secondary-color);
 }
-
+img {
+    width: 4.5rem;
+    position: fixed;
+    display: block;
+}
 /* Media Queries */
 
 @media(max-width: 900px) {
@@ -193,10 +197,13 @@ footer .btn:hover {
     footer {
         flex-direction: column;
     }
+    img {
+        width: 4rem;
+        position: absolute;
+        /* display: block; */
+        top:11rem;
+        left: calc(50vw - 2rem );
+        
+    }
 }
 
-img {
-    width: 4.5rem;
-    position: absolute;
-    display: block;
-}
