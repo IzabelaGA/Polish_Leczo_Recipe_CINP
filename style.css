@@ -19,7 +19,7 @@ body {
     font: normal 1rem/1.5 'Montserrat', sans-serif;
     background: var(--primary-color);
     color: var(--text-primary);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-image: linear-gradient(45deg, var(--primary-color), white 50%, var(--primary-color) 100%);
     background-size: 10px 10px;
 }
@@ -35,11 +35,6 @@ body {
     padding: 1rem 4.5rem;
 }
 
-#navbar h1 img {
-    width: 2.5rem;
-    display: block;
-}
-
 #navbar ul {
     display: flex;
     justify-content: center;
@@ -47,33 +42,32 @@ body {
     list-style: none;
 }
 
-#navbar ul li a {
+#navbar  a {
     text-decoration: none;
     color: var(--text-primary);
     padding: .5rem 1rem;
     margin: 0 .2rem;
     background: var(--secondary-color);
     border-radius: var(--border-radius);
-    opacity: .5;
+    opacity: 1;
     font-weight: bold;
     box-shadow: var(--box-shadow);
     text-shadow: var(--text-shadow);
 }
 
-#navbar ul li a:hover {
-    opacity: 1;
+#navbar a:hover {
+    opacity: .8;
 }
 
 #navbar ul li a.current {
-    background: rgb(241, 147, 112);
-    color: var(--primary-color);
+    background: var(--primary-color);
     opacity: 1;
 }
 
 #main-header {
     background-image: linear-gradient(45deg, var(--secondary-color), rgba(255, 255, 255, 0.76) 50%, var(--secondary-color) 100%);
     background-size: 10px 10px;
-    /* background: var(--secondary-color); */
+    background: var(--secondary-color);
     padding: 4rem .5rem;
 }
 
@@ -89,9 +83,10 @@ body {
 
 .first {
     padding: 1.5rem .5rem;
-
 }
-
+.container-first{
+    margin-top: 1rem;
+}
 .first p {
     padding: .7rem 0;
     text-align: justify;
@@ -111,7 +106,7 @@ h3 {
 }
 
 #timeline>ul {
-    padding: 50px 0;
+    padding: 1rem 0;
 
 }
 
