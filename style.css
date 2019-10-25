@@ -109,7 +109,7 @@ p {
 
 /* Header */
 #main-header {
-    background: linear-gradient(to right top, #b7f6b0, #b9ecb3, #a6dfa0, #9fe297, #93f088), url(/img/02.png);
+    background: linear-gradient(to right top, #b7f6b0, #b9ecb3, #a6dfa0, #9fe297, #93f088), url(02.png);
     background-blend-mode: multiply;
     padding: 4rem .5rem;
     text-shadow: var(--text-shadow);
