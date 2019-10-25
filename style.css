@@ -343,7 +343,7 @@ footer a:hover {
         left: -284px;
     }
 
-    #grid-photos {
+    #grid-photos .photos {
         grid-template-columns: repeat(2, 1fr);
     }
 }
