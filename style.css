@@ -334,7 +334,7 @@ footer a:hover {
     #description {
 
         grid-template-columns: 1fr;
-        width: 90vw;
+        /* width: 90vw; */
     }
 
     #description .c-description {
