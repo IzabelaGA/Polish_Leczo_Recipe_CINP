@@ -84,10 +84,7 @@ p {
     align-items: center;
     list-style: none;
 }
-#navbar i{
-padding-top: .2rem;
-line-height: 100%;
-}
+
 #navbar a {
     text-decoration: none;
     color: var(--text-primary);
@@ -97,9 +94,6 @@ line-height: 100%;
     border-radius: var(--border-radius);
     opacity: 1;
     font-weight: bold;
-    box-shadow: var(--box-shadow);
-    text-shadow: var(--text-shadow);
-    
 }
 
 #navbar a:hover {
