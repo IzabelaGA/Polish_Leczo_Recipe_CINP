@@ -248,7 +248,7 @@ p {
 #grid-photos .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
 }
 
 #grid-photos .photos .card {
