@@ -24,7 +24,7 @@ window.addEventListener('resize', run);
 window.addEventListener('scroll', run);
 
 //   Smoth Scrolling
-$('#navbar ul li a:first-child, .header-nav a:last-child').on('click', function(event) {
+$('#navbar ul li a:first-child, .header-nav a:last-child, #main-header .top-fixed, #main-header .bottom-fixed').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 

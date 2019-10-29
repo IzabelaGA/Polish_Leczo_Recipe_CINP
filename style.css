@@ -143,6 +143,27 @@ p {
     box-shadow: var(--box-shadow-light);
 }
 
+#main-header .top-fixed,
+#main-header .bottom-fixed {
+    position: fixed;
+    bottom: 3rem;
+    right: 4rem;
+    font-size: 2.5rem;
+    color: var(--text-secondary);
+    padding: 1rem;
+    z-index: 1;
+    opacity: .5;
+}
+
+#main-header .bottom-fixed {
+    bottom: 0;
+}
+
+#main-header .top-fixed:hover,
+#main-header .bottom-fixed:hover {
+    opacity: .7;
+}
+
 /* Description */
 #description {
     display: grid;
