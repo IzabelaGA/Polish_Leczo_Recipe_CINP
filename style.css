@@ -130,16 +130,19 @@ p {
 .fa-carrot {
     color: #D73500;
 }
-#main-header .header-nav{
+
+#main-header .header-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
-#main-header .header-nav .btn{
+
+#main-header .header-nav .btn {
     margin: 1rem;
     box-shadow: var(--box-shadow-light);
 }
+
 /* Description */
 #description {
     display: grid;
@@ -397,9 +400,15 @@ footer a:hover {
 }
 
 @media(max-width: 600px) {
-    /* #main-header {
-        height: 100vh;
-    } */
+    #main-header .header-nav {
+        margin-top: 4rem;
+    }
+
+    #main-header .header-nav .btn {
+        text-align: center;
+        margin: 0 .5rem;
+        font-size: .95rem;
+    }
 
     .container {
         padding: 2rem;
