@@ -32,7 +32,7 @@ $('#navbar ul li a:first-child').on('click', function(event) {
 
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top - 100
+        scrollTop: $(hash).offset().top -50
       },
       800
     );
