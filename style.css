@@ -140,7 +140,9 @@ p {
 }
 
 /* Timeline================================ */
-
+#timeline h1{
+    padding: 2rem 2.5rem;
+}
 #timeline ul li {
     list-style: none;
 }
