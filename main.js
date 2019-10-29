@@ -47,7 +47,7 @@ $('.header-nav a:first-child').on('click', function(event) {
 
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top -20
+        scrollTop: $(hash).offset().top -220
       },
       200
     );
