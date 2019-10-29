@@ -380,6 +380,11 @@ footer a:hover {
         padding: 1rem;
     }
 
+    #main-header .top-fixed,
+    #main-header .bottom-fixed {
+        right: 2rem;
+    }
+
     /* Description */
     #description {
 
@@ -430,6 +435,12 @@ footer a:hover {
         text-align: center;
         margin: 0 .25rem;
         font-size: .95rem;
+    }
+
+    #main-header .top-fixed,
+    #main-header .bottom-fixed {
+        right: 0;
+        padding: .5rem;
     }
 
     .container {
