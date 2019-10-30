@@ -441,6 +441,18 @@ footer a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/* ============================================== */
+@media(max-width: 700px) {
+
+    /* Footer */
+    #main-footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
 
 /* =============================================== */
 @media(max-width: 600px) {
@@ -498,12 +510,12 @@ footer a:hover {
         padding: 1rem .5rem;
     }
 
-    /* Footer */
-    footer {
+    /* Footer - transfer properties to max-width 700px*/
+    /* footer {
         flex-direction: column;
     }
 
     footer p {
         text-align: center;
-    }
+    } */
 }
