@@ -26,6 +26,30 @@ body {
 
 
 /* Utility clases */
+
+/* Image on :hover */
+#navbar a.logo {
+    position: relative;
+    opacity: 1;
+    
+}
+
+a.logo img {
+    display: none;
+    border-radius: var(--border-radius);
+    width: 12rem;
+    transition: 1s;
+}
+
+#navbar a.logo:hover img {
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+   
+}
+
+/* =========== */
 .btn {
     text-decoration: none;
     color: var(--text-primary);
@@ -441,6 +465,7 @@ footer a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 /* ============================================== */
 @media(max-width: 700px) {
 
