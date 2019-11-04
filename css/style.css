@@ -120,6 +120,7 @@ p {
     background: var(--primary-color);
     opacity: 1;
 }
+
 /* Image on :hover */
 #navbar a.logo {
     position: relative;
@@ -140,7 +141,7 @@ p {
 #navbar a.logo:hover img {
     display: block;
     position: absolute;
-    top: 2.5rem;
+    top: 2.2rem;
     left: 0;
 }
 
