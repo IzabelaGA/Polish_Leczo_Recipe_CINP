@@ -33,7 +33,9 @@ body {
     opacity: 1;
     
 }
-
+#navbar a.logo:hover{
+   background-color: #fff;
+}
 a.logo img {
     display: none;
     border-radius: var(--border-radius);
