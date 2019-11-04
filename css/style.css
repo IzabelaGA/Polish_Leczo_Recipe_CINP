@@ -27,31 +27,7 @@ body {
 
 /* Utility clases */
 
-/* Image on :hover */
-#navbar a.logo {
-    position: relative;
-    opacity: 1;
-    
-}
-#navbar a.logo:hover{
-   background-color: #fff;
-}
-a.logo img {
-    display: none;
-    border-radius: var(--border-radius);
-    width: 12rem;
-    transition: 1s;
-}
 
-#navbar a.logo:hover img {
-    display: block;
-    position: absolute;
-    top: 2.5rem;
-    left: 0;
-   
-}
-
-/* =========== */
 .btn {
     text-decoration: none;
     color: var(--text-primary);
@@ -144,6 +120,30 @@ p {
     background: var(--primary-color);
     opacity: 1;
 }
+/* Image on :hover */
+#navbar a.logo {
+    position: relative;
+    opacity: 1;
+}
+
+#navbar a.logo:hover {
+    background-color: #9EDC97;
+}
+
+#navbar a.logo img {
+    display: none;
+    border-radius: var(--border-radius);
+    width: 12rem;
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
+}
+
+#navbar a.logo:hover img {
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+}
+
 
 /* Header */
 #main-header {
