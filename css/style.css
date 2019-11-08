@@ -132,17 +132,22 @@ p {
 }
 
 #navbar a.logo img {
-    display: none;
-    border-radius: var(--border-radius);
-    width: 12rem;
-    box-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
-}
-
-#navbar a.logo:hover img {
-    display: block;
+    /* display: none; */
     position: absolute;
     top: 2.2rem;
     left: 0;
+    transform: translateX(-10rem) scale(0);
+    border-radius: var(--border-radius);
+    opacity: 0;
+    width: 12rem;
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
+    transition: .5s ease-in-out;
+}
+
+#navbar a.logo:hover img {
+    /* display: block; */
+    transform: translateX(0) scale(1);
+    opacity: 1;
 }
 
 
