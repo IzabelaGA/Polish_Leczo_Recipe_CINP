@@ -141,7 +141,7 @@ p {
     position: absolute;
     top: 2.2rem;
     left: 0;
-    transform: translateX(-10rem) scale(0);
+    transform: translateX(-10rem);
     border-radius: var(--border-radius);
     opacity: 0;
     width: 12rem;
@@ -151,7 +151,7 @@ p {
 
 #navbar a.logo:hover img {
     /* display: block; */
-    transform: translateX(0) scale(1);
+    transform: translateX(0);
     opacity: 1;
 }
 
