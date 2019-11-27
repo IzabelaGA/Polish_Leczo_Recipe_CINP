@@ -1,3 +1,4 @@
+// Show class
 const items = document.querySelectorAll('#timeline > ul > li');
 
 const isInViewport = el => {
@@ -66,5 +67,14 @@ $('.header-nav a:nth-child(2)').on('click', function(event) {
       },
       400
     );
+  }
+});
+
+// Sticky menu background - opacity
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 150) {
+    document.querySelector('#navbar').style.opacity = 0.9;
+  } else {
+    document.querySelector('#navbar').style.opacity = 1;
   }
 });
