@@ -1,5 +1,6 @@
 #main-header {
     color: var(--text-secondary);
+    min-height: calc(100vh - 11.5rem);
 }
 
 #main-header p {
