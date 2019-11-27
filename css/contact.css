@@ -26,6 +26,7 @@
     width: 100%;
     padding: .5rem;
     margin: 0 auto;
+    font-family: inherit;
 }
 
 textarea {

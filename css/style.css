@@ -40,7 +40,10 @@ body {
     opacity: 1;
     font-weight: bold;
 }
-
+.btn-dark{
+    background: var(--text-secondary);
+    color: #fff;
+}
 .btn:hover {
     opacity: .8;
 }
