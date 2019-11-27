@@ -184,7 +184,7 @@ p {
     right: 4rem;
     font-size: 2.5rem;
     color: var(--text-secondary);
-    padding: 1rem;
+    padding: 0 1rem;
     z-index: 1;
     opacity: .5;
 }
