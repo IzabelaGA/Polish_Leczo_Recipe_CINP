@@ -24,8 +24,6 @@ body {
     font: normal 1rem/1.5 'Montserrat', sans-serif;
     color: var(--text-primary);
     overflow-X: hidden;
-    background: var(--primary-grad-color), var(--primary-pattern);
-    background-blend-mode: soft-light;
 }
 
 
@@ -225,10 +223,14 @@ p {
 /* Timeline================================ */
 #timeline {
     overflow-x: hidden;
+    padding-top: 0;
+    background: var(--primary-grad-color), var(--primary-pattern);
+    background-blend-mode: soft-light;
 }
 
 #timeline h1 {
     padding: 2rem 2.5rem;
+    background: #fff;
 }
 
 #timeline ul li {
@@ -327,7 +329,7 @@ p {
 /* Photos */
 #grid-photos {
     background: #fff;
-    margin: 2rem auto;
+    margin: 2rem auto 0;
     text-shadow: var(--text-shadow);
 }
 
