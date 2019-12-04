@@ -1,5 +1,5 @@
 // Show class
-const items = document.querySelectorAll('#timeline > ul > li');
+const items = document.querySelectorAll('#timeline > ul > li, #main-header, #description');
 
 const isInViewport = el => {
     const rect = el.getBoundingClientRect();
