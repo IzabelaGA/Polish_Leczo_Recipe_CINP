@@ -557,7 +557,7 @@ footer a:hover {
     #description .container>*,
     #description .c-description>* {
         visibility: visible;
-        transition-delay: 0;
+        transition-delay: 0s;
         transform: translateX(-50px);
     }
 
