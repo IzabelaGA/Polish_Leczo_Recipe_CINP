@@ -381,6 +381,7 @@ p {
     background: #fff;
     margin: 2rem auto 0;
     text-shadow: var(--text-shadow);
+    overflow-X: hidden;
 }
 
 #grid-photos h1 {
@@ -429,8 +430,8 @@ p {
 #grid-photos .photos .card p,
 #grid-photos .photos .card a,
 #grid-photos .photos .card div {
-    transform: translatey(-100px);
-    transition: var(--transition-slow);
+    transform: translateY(-100px);
+    transition: var(--transition-med);
     visibility: hidden;
     opacity: 0;
 }
@@ -558,7 +559,7 @@ footer a:hover {
     #description .c-description>* {
         visibility: visible;
         transition-delay: 0s;
-        transform: translateX(-50px);
+        transform: translateX(-100px);
     }
 
     /* Footer */
