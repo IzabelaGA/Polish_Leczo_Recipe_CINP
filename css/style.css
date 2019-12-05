@@ -12,6 +12,9 @@
     --box-shadow: 0px 0px 1rem rgba(0, 0, 0, .5);
     --box-shadow-light: 0px 0px 1rem rgba(0, 0, 0, .2);
     --text-shadow: 0px 3px 9px rgba(0, 0, 0, .15);
+    --transition-fast: all .3s ease-in-out;
+    --transition-med: all .5s ease-in-out;
+    --transition-slow: all .7s ease-in-out;
 }
 
 * {
@@ -148,12 +151,12 @@ p {
     opacity: 0;
     width: 12rem;
     box-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
-    transition: .5s ease-in-out;
+    transition: var(--transition-fast);
 }
 
 #navbar a.logo:hover img {
     /* display: block; */
-    transform: translateX(0);
+    transform: none;
     opacity: 1;
 }
 
@@ -170,13 +173,14 @@ p {
 #main-header h3 {
     transform: translateX(-200px);
     transition: all .3s .3s ease-in-out;
+    transition: var(--transition-med) .5s;
     visibility: hidden;
     opacity: 0;
 }
 
 #main-header h1 {
     transform: translateX(200px);
-    transition: all .3s ease-in-out;
+    transition: var(--transition-med);
 }
 
 #main-header.show h1,
@@ -245,14 +249,14 @@ p {
 
 #description .container>* {
     transform: translateY(-200px);
-    transition: all .3s .9s ease-in-out;
+    transition: var(--transition-med) 1.2s;
     visibility: hidden;
     opacity: 0;
 }
 
 #description .c-description>* {
     transform: translateX(-200px);
-    transition: all .3s .6s ease-in-out;
+    transition: var(--transition-med) .9s;
 }
 
 #description .container.show>* {
@@ -422,6 +426,27 @@ p {
     transition: 1s;
 }
 
+#grid-photos .photos .card p,
+#grid-photos .photos .card a,
+#grid-photos .photos .card div {
+    transform: translatey(-100px);
+    transition: var(--transition-slow);
+    visibility: hidden;
+    opacity: 0;
+}
+
+#grid-photos .photos .card div {
+    transform: translateX(100px);
+}
+
+#grid-photos .photos .card.show p,
+#grid-photos .photos .card a,
+#grid-photos .photos .card.show div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
 #grid-photos .photos .card img:hover {
     transform: scale(1.2);
 }
@@ -533,7 +558,7 @@ footer a:hover {
     #description .c-description>* {
         visibility: visible;
         transition-delay: 0;
-        transform: translateX(-100px);
+        transform: translateX(-50px);
     }
 
     /* Footer */
