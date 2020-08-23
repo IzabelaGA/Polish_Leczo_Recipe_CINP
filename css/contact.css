@@ -3,6 +3,10 @@
     min-height: calc(100vh - 11.5rem);
 }
 
+#main-header.contact {
+    padding: 1rem .5rem;
+}
+
 #main-header p {
     font-size: 1.3rem;
 }
